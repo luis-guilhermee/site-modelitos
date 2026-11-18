@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Agendamento</title>
+
+    <link rel="stylesheet" href="./css/agendamento.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <img src="img/logo1.png" alt="" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
+        <li><a href="contrate.html">Contrate</a></li>
+        <li><a href="inscreva.html">Inscreva-se</a></li>
+      </ul>
+      <button><a href="login.html"><i class="bx bx-user"></i></a></button>
+    </nav>
+    <section class="selecao-assentos">
+      <h1 id="nomeFilme">Agenda de Modelos</h1>
+      <h2 id="tipoSala">Disponibilidade</h2>
+
+      <div class="controles-calendario">
+        <label for="mes">Mês</label>
+        <select id="mes">
+          <option value="0">Janeiro</option>
+          <option value="1">Fevereiro</option>
+          <option value="2">Março</option>
+          <option value="3">Abril</option>
+          <option value="4">Maio</option>
+          <option value="5">Junho</option>
+          <option value="6">Julho</option>
+          <option value="7">Agosto</option>
+          <option value="8">Setembro</option>
+          <option value="9">Outubro</option>
+          <option value="10">Novembro</option>
+          <option value="11">Dezembro</option>
+        </select>
+
+        <label for="ano">Ano</label>
+        <select id="ano"></select>
+      </div>
+
+      <div class="tela" id="tela">AGENDA</div>
+
+      <div class="dias-semana">
+        <span>Dom</span>
+        <span>Seg</span>
+        <span>Ter</span>
+        <span>Qua</span>
+        <span>Qui</span>
+        <span>Sex</span>
+        <span>Sáb</span>
+      </div>
+
+      <div id="sala" class="sala"></div>
+
+      <div class="legenda">
+        <div>
+          <span class="cor disponivel"></span>
+          <p>Disponível</p>
+        </div>
+
+        <div>
+          <span class="cor ocupado"></span>
+          <p>Com agendamento</p>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>

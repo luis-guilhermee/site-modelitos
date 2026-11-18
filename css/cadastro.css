@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fef4fd;
+    
+}
+
+.container span {
+    color: #ff1493;
+}
+
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: #333;
+    font-size: 1.3rem;
+    text-align: start;
+    font-family: "Playfair Display", serif;
+    position: absolute;
+    right: 4%;
+    top: 30%;
+    width: 300px;
+}
+
+
+.container h1 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    margin-top: 50px;
+    color: #333;
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    
+}
+
+.formulario {
+    width: 400px;
+    height: 600px;
+    gap: 8px;
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    display: flex;
+
+    flex-direction: column;
+
+    position: relative;
+
+}
+.formulario img {
+    display: block;
+    margin: 0 auto 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: brightness(0)
+}
+
+
+.formulario h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+}
+
+
+.formulario input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    
+}
+
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ef51a0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #ff1493;
+}
+
+
+.formulario p{
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+
+.formulario a {
+    color: black;
+    text-decoration: none;
+}
+
+.lembrar-senha {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    width: auto;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.lembrar-senha input {
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    accent-color: #ec4899;
+    flex-shrink: 0;
+}
+
+.modelo {
+    width: auto;
+    position: absolute;
+    top: 0%;
+    height: 850px;
+    
+}
+
+.botao a {
+    color: #fff;
+}
